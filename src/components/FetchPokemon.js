@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import axios from 'axios';
 
-// import styles from '../css/FetchPokemon.module.css';
+
 
 const FetchPokemon = () => {
     const [pokemonList, setPokemonList]=useState('');
@@ -20,7 +20,7 @@ const FetchPokemon = () => {
         <div>
             <button
                 onClick={clickHandler}
-                // className={styles.fetchBtn}
+                
             >
                 Fetch Pokemon
             </button>
